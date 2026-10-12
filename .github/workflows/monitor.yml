@@ -33,6 +33,8 @@ jobs:
         run: node scripts/state-git.mjs restore
       - name: Collect public sources and detect changes
         run: npm run collect
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
       - name: Save snapshot to monitor-data branch
         run: node scripts/state-git.mjs save
       - name: Build GitHub Pages site
@@ -78,6 +80,6 @@ jobs:
           Open **Settings → Pages → Build and deployment → Source → GitHub Actions**,
           then select **Actions → PAID Monitor and Pages → Run workflow**.
 
-          This repository is private: GitHub Pages availability depends on your GitHub plan.
+          For private repositories, GitHub Pages availability depends on your GitHub plan.
           The `paid-dashboard` artifact and collection summary are still available in this run.
           EOF

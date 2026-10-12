@@ -16,7 +16,7 @@ export function buildSnapshot(fresh, chart, previous = {}, config = defaults, ru
     id: createHash('sha256').update([at, type, title, detail].join('|')).digest('hex').slice(0, 20),
     at, type, title, detail, runUrl,
   });
-  for (const source of [{ id: 'market', ...fresh.market }, ...fresh.sources, { id: 'chart', ...chart }]) {
+  for (const source of [{ id: 'market', ...fresh.market }, ...fresh.sources, { id: 'chart', ...chart }, ...(fresh.protocol ? [{id:'protocol',...fresh.protocol.analytics},{id:'protocolVolume',...fresh.protocol.volume}] : []), ...(fresh.social?.sources||[]).filter(s=>s.id!=='x'||fresh.social.xConnected).map(s=>({...s,id:'social-'+s.id}))]) {
     const before = sourceStates[source.id];
     if (!source.ok && before !== false) addEvent('source', '数据源读取失败', `${source.id}: ${source.error || '没有可用数据'}`);
     if (source.ok && before === false) addEvent('source', '数据源恢复', source.id);
@@ -46,7 +46,7 @@ export function buildSnapshot(fresh, chart, previous = {}, config = defaults, ru
   // An outage is not a recovery; retain the threshold baseline until measured again.
   const thresholdBaseline = p ? activeAlerts : (previous.activeAlerts || []);
   return {
-    version: 2, ...fresh, candles: chart,
+    version: 3, ...fresh, candles: chart,
     history: history.slice(-settings.historyLimit), events: events.slice(0, settings.eventLimit),
     baselines, sourceStates, activeAlerts: thresholdBaseline,
     monitor: { ...settings, runUrl, mode: 'github-actions', thresholdEvaluation: p ? 'evaluated' : 'unavailable' },
@@ -54,5 +54,5 @@ export function buildSnapshot(fresh, chart, previous = {}, config = defaults, ru
 }
 
 export function emptySnapshot() {
-  return { version: 2, mint: MINT, generatedAt: null, market: { ok: false, main: null, pairs: [], error: '尚未完成首次采集' }, sources: [], candles: { ok: false, data: [], error: '尚未采集' }, history: [], events: [], activeAlerts: [], monitor: { ...defaults, mode: 'github-actions', thresholdEvaluation: 'unavailable' } };
+  return { version: 3, mint: MINT, generatedAt: null, market: { ok: false, main: null, pairs: [], error: '尚未完成首次采集' }, sources: [], candles: { ok: false, data: [], error: '尚未采集' }, history: [], events: [], activeAlerts: [], monitor: { ...defaults, mode: 'github-actions', thresholdEvaluation: 'unavailable' } };
 }
