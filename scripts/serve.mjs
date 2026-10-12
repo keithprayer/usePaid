@@ -1,4 +1,3 @@
-import worker from '../dist/server/index.js';
 import { serve } from './http.mjs';
-
-serve(worker);
+import { staticHandler } from './static.mjs';
+serve(staticHandler(new URL('../dist/', import.meta.url)));

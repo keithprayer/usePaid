@@ -1,0 +1,83 @@
+name: PAID Monitor and Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'README.md'
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: paid-monitor-and-pages
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Validate source and tests
+        run: npm run check
+      - name: Restore durable monitoring history
+        run: node scripts/state-git.mjs restore
+      - name: Collect public sources and detect changes
+        run: npm run collect
+      - name: Save snapshot to monitor-data branch
+        run: node scripts/state-git.mjs save
+      - name: Build GitHub Pages site
+        run: npm run build
+      - name: Upload downloadable dashboard
+        uses: actions/upload-artifact@v4
+        with:
+          name: paid-dashboard
+          path: dist/
+          retention-days: 7
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist/
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Read Pages configuration
+        id: pages
+        continue-on-error: true
+        uses: actions/configure-pages@v5
+      - name: Deploy dashboard
+        if: steps.pages.outcome == 'success'
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Explain first-time Pages setup
+        if: steps.pages.outcome != 'success'
+        run: |
+          echo '::warning::Pages is not configured or unavailable. Open Settings > Pages > Source > GitHub Actions, then run this workflow again.'
+          cat >> "$GITHUB_STEP_SUMMARY" <<'EOF'
+          ## Website not deployed
+
+          The collection artifact was created, but Pages configuration could not be read.
+          Open **Settings → Pages → Build and deployment → Source → GitHub Actions**,
+          then select **Actions → PAID Monitor and Pages → Run workflow**.
+
+          This repository is private: GitHub Pages availability depends on your GitHub plan.
+          The `paid-dashboard` artifact and collection summary are still available in this run.
+          EOF

@@ -16,7 +16,12 @@ export async function dashboard(){
  const out={mint:MINT,generatedAt:checked(),market:{...market,data:undefined,pairs,main,ok:market.ok&&pairs.length>0,error:market.error||(pairs.length?null:'数据源未返回与指定 mint 匹配的交易池')},sources:records};
  return out;
 }
-export async function candles(pool){if(!/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(pool))return {ok:false,error:'无效交易池地址'};const r=await read('https://api.geckoterminal.com/api/v2/networks/solana/pools/'+pool+'/ohlcv/hour?aggregate=1&limit=168&currency=usd&token='+MINT);return {...r,data:r.ok?(r.data?.data?.attributes?.ohlcv_list||[]).map(x=>({time:x[0],open:x[1],high:x[2],low:x[3],close:x[4],volume:x[5]})).reverse():null};}
-const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
-export default {async fetch(request,env,ctx){const u=new URL(request.url);if(request.method!=='GET')return json({error:'Method not allowed'},405);if(u.pathname==='/api/dashboard'){const key=new Request(u.origin+'/cache/dashboard-v1');let cache=globalThis.caches?.default;const hit=cache?await cache.match(key):null;if(hit)return hit;const data=await dashboard();const r=json(data);if(cache&&data.market.ok){const c=new Response(r.body,{headers:{...Object.fromEntries(r.headers),'Cache-Control':'public, max-age=45'}});ctx.waitUntil(cache.put(key,c.clone()));return c;}return r;}
- if(u.pathname==='/api/candles')return json(await candles(u.searchParams.get('pool')||''));if(u.pathname==='/health')return json({ok:true,mint:MINT});if(u.pathname!=='/')return new Response('Not found',{status:404});return new Response(HTML,{headers:{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin','Content-Security-Policy':"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-src https://dexscreener.com; object-src 'none'; base-uri 'none'"}});}};
+export async function candles(pool) {
+ if(!/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(pool)) return {ok:false,error:'无效交易池地址'};
+ const r=await read('https://api.geckoterminal.com/api/v2/networks/solana/pools/'+pool+'/ohlcv/hour?aggregate=1&limit=168&currency=usd&token='+MINT);
+ if(!r.ok) return {...r,data:null};
+ const rows=r.data?.data?.attributes?.ohlcv_list;
+ if(!Array.isArray(rows)) return {...r,ok:false,data:null,error:'历史价格数据结构无法识别'};
+ const data=rows.filter(x=>Array.isArray(x)&&x.length>=6&&x.slice(0,6).every(Number.isFinite)).map(x=>({time:x[0],open:x[1],high:x[2],low:x[3],close:x[4],volume:x[5]})).sort((a,b)=>a.time-b.time);
+ return {...r,ok:data.length>0,data,error:data.length?null:'没有有效历史价格'};
+}
