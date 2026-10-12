@@ -1,0 +1,16 @@
+{
+  "name": "usepaid-observatory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UsePaid Chinese project fundamentals and token monitoring dashboard",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node --watch scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build && npm test && node scripts/validate.mjs",
+    "deploy": "npm run build && npx wrangler@4 deploy"
+  }
+}
