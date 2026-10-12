@@ -13,6 +13,8 @@ for (const url of pageUrls) {
     }
     const jsonBlocks = [...html.matchAll(/<script[^>]*type=["']application\/json["'][^>]*>([\s\S]*?)<\/script>/g)].map(x => x[1]);
     const inline = [...html.matchAll(/<script(?![^>]*src=)[^>]*>([\s\S]*?)<\/script>/g)].map(x => x[1]).join('\n');
+    const decoded = [...inline.matchAll(/self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)/g)].map(m=>JSON.parse(m[1])).join('');
+    console.log(JSON.stringify({page:url,flight:decoded.slice(-180000)}));
     const terms = ['buyback', 'burnedAt', 'burned_at', 'boughtAt', 'initialData', 'initialTokens', 'totalCount', 'totalTokens', 'volume', 'pagination'];
     const contexts = [];
     for (const word of terms) {
@@ -23,13 +25,13 @@ for (const url of pageUrls) {
   } catch (e) { console.log(JSON.stringify({ page: url, error: e.message })); }
 }
 console.log(JSON.stringify({ publicScripts: [...scripts] }));
-const selected = [...scripts].filter(s => /analytics|explore|launch|app\/page|layout/.test(s)).slice(0, 12);
+const selected = [...scripts];
 for (const url of selected) {
   try {
     const r = await fetch(url, { signal: AbortSignal.timeout(15000) });
     const body = await r.text();
     const endpoints = [...new Set([...body.matchAll(/["'`]((?:https:\/\/[^"'`\s]+)?\/api\/[^"'`\s]*)["'`]/g)].map(x => x[1]))];
-    const contexts = [...body.matchAll(/(?:fetch\(|\/api\/|buyback|volume24|totalCount)/g)].slice(0, 35).map(m => body.slice(Math.max(0, m.index - 100), m.index + 450));
+    const contexts = [...body.matchAll(/(?:fetch\(|\/api\/|buyback|volume24|totalCount)/g)].slice(0, 80).map(m => body.slice(Math.max(0, m.index - 100), m.index + 450));
     console.log(JSON.stringify({ script: url, status: r.status, bytes: body.length, endpoints, contexts }));
   } catch (e) { console.log(JSON.stringify({ script: url, error: e.message })); }
 }
