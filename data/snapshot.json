@@ -1,10 +1,10 @@
 {
   "version": 3,
   "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
-  "generatedAt": "2026-11-14T10:59:42.672Z",
+  "generatedAt": "2026-11-14T16:59:56.498Z",
   "market": {
     "ok": true,
-    "checkedAt": "2026-11-14T10:59:38.065Z",
+    "checkedAt": "2026-11-14T16:59:55.276Z",
     "url": "https://api.dexscreener.com/token-pairs/v1/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
     "pairs": [
       {
@@ -22,49 +22,50 @@
           "name": "Wrapped SOL",
           "symbol": "SOL"
         },
-        "priceNative": "0.00001804",
-        "priceUsd": "0.001366",
+        "priceNative": "0.00001691",
+        "priceUsd": "0.001228",
         "txns": {
           "m5": {
-            "buys": 0,
-            "sells": 0
+            "buys": 10,
+            "sells": 3
           },
           "h1": {
-            "buys": 6,
-            "sells": 4
+            "buys": 47,
+            "sells": 13
           },
           "h6": {
-            "buys": 165,
-            "sells": 142
+            "buys": 186,
+            "sells": 97
           },
           "h24": {
-            "buys": 746,
-            "sells": 579
+            "buys": 736,
+            "sells": 470
           }
         },
         "volume": {
-          "h24": 89036.77,
-          "h6": 22761.13,
-          "h1": 488.68,
-          "m5": 0
+          "h24": 78910.28,
+          "h6": 17478.09,
+          "h1": 2502.32,
+          "m5": 998.57
         },
         "priceChange": {
-          "h1": -0.26,
-          "h6": 5.65,
-          "h24": 2.65
+          "m5": 0.26,
+          "h1": -1.52,
+          "h6": -10.09,
+          "h24": -9.7
         },
         "liquidity": {
-          "usd": 221748.01,
-          "base": 81976379,
-          "quote": 1449.1175
+          "usd": 205909.66,
+          "base": 83870935,
+          "quote": 1416.5098
         },
-        "fdv": 1131616,
-        "marketCap": 1131616,
+        "fdv": 1017033,
+        "marketCap": 1017033,
         "pairCreatedAt": 1789500144000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -97,124 +98,50 @@
           "name": "Wrapped SOL",
           "symbol": "SOL"
         },
-        "priceNative": "0.00001770",
-        "priceUsd": "0.001340",
+        "priceNative": "0.00001689",
+        "priceUsd": "0.001226",
         "txns": {
           "m5": {
-            "buys": 0,
-            "sells": 0
+            "buys": 3,
+            "sells": 6
           },
           "h1": {
-            "buys": 0,
-            "sells": 3
+            "buys": 3,
+            "sells": 15
           },
           "h6": {
-            "buys": 18,
-            "sells": 25
+            "buys": 29,
+            "sells": 48
           },
           "h24": {
-            "buys": 92,
-            "sells": 107
+            "buys": 81,
+            "sells": 118
           }
         },
         "volume": {
-          "h24": 3581.63,
-          "h6": 795.58,
-          "h1": 8.39,
-          "m5": 0
+          "h24": 2414.63,
+          "h6": 562.57,
+          "h1": 156.38,
+          "m5": 96.36
         },
         "priceChange": {
-          "h1": -0.48,
-          "h6": 4.13,
-          "h24": -0.89
+          "m5": 1.53,
+          "h1": -2.1,
+          "h6": -8.45,
+          "h24": -10.71
         },
         "liquidity": {
-          "usd": 20770.75,
-          "base": 9933695,
-          "quote": 98.5257
+          "usd": 18498.36,
+          "base": 9580625,
+          "quote": 92.8639
         },
-        "fdv": 1333591,
-        "marketCap": 1333591,
+        "fdv": 1220934,
+        "marketCap": 1220934,
         "pairCreatedAt": 1789508239000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
-          "websites": [
-            {
-              "url": "https://usepaid.app/",
-              "label": "Website"
-            }
-          ],
-          "socials": [
-            {
-              "url": "https://x.com/UsePaid",
-              "type": "twitter"
-            }
-          ]
-        }
-      },
-      {
-        "chainId": "solana",
-        "dexId": "meteora",
-        "url": "https://dexscreener.com/solana/ovtwehg1eluqagpsz8qxxfwrsunkx58hejkjhwjxoed",
-        "pairAddress": "ovtwEHG1eLuqagpSz8QXxfwrsUNKx58hejKjhWjxoeD",
-        "labels": [
-          "DLMM"
-        ],
-        "baseToken": {
-          "address": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
-          "name": "Paid",
-          "symbol": "PAID"
-        },
-        "quoteToken": {
-          "address": "So11111111111111111111111111111111111111112",
-          "name": "Wrapped SOL",
-          "symbol": "SOL"
-        },
-        "priceNative": "0.00001787",
-        "priceUsd": "0.001354",
-        "txns": {
-          "m5": {
-            "buys": 0,
-            "sells": 0
-          },
-          "h1": {
-            "buys": 0,
-            "sells": 1
-          },
-          "h6": {
-            "buys": 61,
-            "sells": 17
-          },
-          "h24": {
-            "buys": 126,
-            "sells": 115
-          }
-        },
-        "volume": {
-          "h24": 6.66,
-          "h6": 1.53,
-          "h1": 0.02,
-          "m5": 0
-        },
-        "priceChange": {
-          "h1": 0.81,
-          "h6": 5.82,
-          "h24": -4.13
-        },
-        "liquidity": {
-          "usd": 16163.44,
-          "base": 11825794,
-          "quote": 1.928
-        },
-        "fdv": 1347841,
-        "marketCap": 1347841,
-        "pairCreatedAt": 1789701013000,
-        "info": {
-          "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
-          "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -247,8 +174,8 @@
           "name": "USD Coin",
           "symbol": "USDC"
         },
-        "priceNative": "0.001369",
-        "priceUsd": "0.001369",
+        "priceNative": "0.001232",
+        "priceUsd": "0.001232",
         "txns": {
           "m5": {
             "buys": 0,
@@ -256,39 +183,115 @@
           },
           "h1": {
             "buys": 0,
-            "sells": 0
+            "sells": 5
           },
           "h6": {
             "buys": 9,
-            "sells": 19
+            "sells": 29
           },
           "h24": {
-            "buys": 73,
-            "sells": 107
+            "buys": 53,
+            "sells": 118
           }
         },
         "volume": {
-          "h24": 5568.73,
-          "h6": 1208.28,
-          "h1": 0,
+          "h24": 4837.22,
+          "h6": 1040.55,
+          "h1": 291.26,
           "m5": 0
         },
         "priceChange": {
-          "h6": 6.28,
-          "h24": 1.01
+          "h1": -3.58,
+          "h6": -9.97,
+          "h24": -11.98
         },
         "liquidity": {
-          "usd": 12039.88,
-          "base": 4191768,
-          "quote": 6299.8563
+          "usd": 11331.87,
+          "base": 4820196,
+          "quote": 5389.4045
         },
-        "fdv": 1362684,
-        "marketCap": 1362684,
+        "fdv": 1226821,
+        "marketCap": 1226821,
         "pairCreatedAt": 1791880520000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
+          "websites": [
+            {
+              "url": "https://usepaid.app/",
+              "label": "Website"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/UsePaid",
+              "type": "twitter"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "meteora",
+        "url": "https://dexscreener.com/solana/ovtwehg1eluqagpsz8qxxfwrsunkx58hejkjhwjxoed",
+        "pairAddress": "ovtwEHG1eLuqagpSz8QXxfwrsUNKx58hejKjhWjxoeD",
+        "labels": [
+          "DLMM"
+        ],
+        "baseToken": {
+          "address": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+          "name": "Paid",
+          "symbol": "PAID"
+        },
+        "quoteToken": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL"
+        },
+        "priceNative": "0.00001673",
+        "priceUsd": "0.001213",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 1,
+            "sells": 5
+          },
+          "h6": {
+            "buys": 21,
+            "sells": 30
+          },
+          "h24": {
+            "buys": 122,
+            "sells": 115
+          }
+        },
+        "volume": {
+          "h24": 583.33,
+          "h6": 579,
+          "h1": 0.26,
+          "m5": 0
+        },
+        "priceChange": {
+          "h1": -3.85,
+          "h6": -10.38,
+          "h24": -12.15
+        },
+        "liquidity": {
+          "usd": 7425.25,
+          "base": 6008260,
+          "quote": 1.8255
+        },
+        "fdv": 1207887,
+        "marketCap": 1207887,
+        "pairCreatedAt": 1789701013000,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -321,49 +324,50 @@
           "name": "USD Coin",
           "symbol": "USDC"
         },
-        "priceNative": "0.001363",
-        "priceUsd": "0.001363",
+        "priceNative": "0.001240",
+        "priceUsd": "0.001240",
         "txns": {
           "m5": {
-            "buys": 0,
-            "sells": 2
+            "buys": 7,
+            "sells": 4
           },
           "h1": {
-            "buys": 16,
-            "sells": 16
+            "buys": 55,
+            "sells": 42
           },
           "h6": {
-            "buys": 201,
-            "sells": 255
+            "buys": 268,
+            "sells": 236
           },
           "h24": {
-            "buys": 1035,
-            "sells": 1074
+            "buys": 1019,
+            "sells": 960
           }
         },
         "volume": {
-          "h24": 13175.39,
-          "h6": 2453.54,
-          "h1": 259.37,
-          "m5": 0.01
+          "h24": 11529.91,
+          "h6": 2956.59,
+          "h1": 694.05,
+          "m5": 91.96
         },
         "priceChange": {
-          "h1": 0.05,
-          "h6": 6.58,
-          "h24": 1.23
+          "m5": 2.3,
+          "h1": -1.89,
+          "h6": -9.07,
+          "h24": -9.71
         },
         "liquidity": {
-          "usd": 4408.5,
-          "base": 2230311,
-          "quote": 1367.1076
+          "usd": 4096.8,
+          "base": 2429774,
+          "quote": 1083.8393
         },
-        "fdv": 1357020,
-        "marketCap": 1357020,
+        "fdv": 1233975,
+        "marketCap": 1233975,
         "pairCreatedAt": 1790405159000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -396,8 +400,8 @@
           "name": "Wrapped SOL",
           "symbol": "SOL"
         },
-        "priceNative": "0.00001777",
-        "priceUsd": "0.001346",
+        "priceNative": "0.00001670",
+        "priceUsd": "0.001211",
         "txns": {
           "m5": {
             "buys": 0,
@@ -405,40 +409,40 @@
           },
           "h1": {
             "buys": 0,
-            "sells": 2
-          },
-          "h6": {
-            "buys": 9,
             "sells": 8
           },
+          "h6": {
+            "buys": 0,
+            "sells": 17
+          },
           "h24": {
-            "buys": 33,
-            "sells": 58
+            "buys": 17,
+            "sells": 63
           }
         },
         "volume": {
-          "h24": 498.74,
-          "h6": 145.09,
-          "h1": 9.41,
+          "h24": 396.12,
+          "h6": 56.89,
+          "h1": 19.07,
           "m5": 0
         },
         "priceChange": {
-          "h1": -4.57,
-          "h6": 6.22,
-          "h24": -3.38
+          "h1": -3.51,
+          "h6": -10,
+          "h24": -11.61
         },
         "liquidity": {
-          "usd": 2230.14,
-          "base": 537484,
-          "quote": 19.8778
+          "usd": 2091.88,
+          "base": 582234,
+          "quote": 19.1101
         },
-        "fdv": 1340095,
-        "marketCap": 1340095,
+        "fdv": 1206033,
+        "marketCap": 1206033,
         "pairCreatedAt": 1789507010000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -471,48 +475,50 @@
           "name": "STONK",
           "symbol": "STONK"
         },
-        "priceNative": "0.02995",
-        "priceUsd": "0.001346",
+        "priceNative": "0.03157",
+        "priceUsd": "0.001237",
         "txns": {
           "m5": {
-            "buys": 0,
+            "buys": 4,
             "sells": 0
           },
           "h1": {
-            "buys": 0,
-            "sells": 0
+            "buys": 7,
+            "sells": 7
           },
           "h6": {
-            "buys": 24,
-            "sells": 18
+            "buys": 37,
+            "sells": 26
           },
           "h24": {
-            "buys": 120,
-            "sells": 92
+            "buys": 101,
+            "sells": 94
           }
         },
         "volume": {
-          "h24": 155.83,
-          "h6": 32.41,
-          "h1": 0,
-          "m5": 0
+          "h24": 138.24,
+          "h6": 43.13,
+          "h1": 9.84,
+          "m5": 2.39
         },
         "priceChange": {
-          "h6": 5.38,
-          "h24": 0.51
+          "m5": 1.79,
+          "h1": -2.55,
+          "h6": -8.11,
+          "h24": -10.63
         },
         "liquidity": {
-          "usd": 190.93,
-          "base": 76692,
-          "quote": 1950.314
+          "usd": 171.38,
+          "base": 70658,
+          "quote": 2142.117
         },
-        "fdv": 1340012,
-        "marketCap": 1340012,
+        "fdv": 1231362,
+        "marketCap": 1231362,
         "pairCreatedAt": 1790415748000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -545,8 +551,8 @@
           "name": "Wrapped SOL",
           "symbol": "SOL"
         },
-        "priceNative": "0.00001806",
-        "priceUsd": "0.001362",
+        "priceNative": "0.00001732",
+        "priceUsd": "0.001256",
         "txns": {
           "m5": {
             "buys": 0,
@@ -554,39 +560,40 @@
           },
           "h1": {
             "buys": 0,
-            "sells": 0
+            "sells": 1
           },
           "h6": {
-            "buys": 1,
-            "sells": 3
+            "buys": 2,
+            "sells": 10
           },
           "h24": {
-            "buys": 22,
-            "sells": 46
+            "buys": 21,
+            "sells": 47
           }
         },
         "volume": {
-          "h24": 0.83,
-          "h6": 0.1,
+          "h24": 0.73,
+          "h6": 0.11,
           "h1": 0,
           "m5": 0
         },
         "priceChange": {
-          "h6": 1.92,
-          "h24": -4.55
+          "h1": -1.63,
+          "h6": -7.81,
+          "h24": -9.99
         },
         "liquidity": {
-          "usd": 106.93,
-          "base": 64343,
-          "quote": 0.255
+          "usd": 99.34,
+          "base": 64403,
+          "quote": 0.2539
         },
-        "fdv": 1356329,
-        "marketCap": 1356329,
+        "fdv": 1250399,
+        "marketCap": 1250399,
         "pairCreatedAt": 1789511447000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -635,31 +642,31 @@
             "sells": 0
           },
           "h24": {
-            "buys": 16,
+            "buys": 3,
             "sells": 0
           }
         },
         "volume": {
-          "h24": 6.35,
+          "h24": 2.62,
           "h6": 0,
           "h1": 0,
           "m5": 0
         },
         "priceChange": {
-          "h24": -9.37
+          "h24": -14.17
         },
         "liquidity": {
           "usd": 9.67,
           "base": 0.00018,
           "quote": 3749.9329
         },
-        "fdv": 994154,
-        "marketCap": 994154,
+        "fdv": 993719,
+        "marketCap": 993719,
         "pairCreatedAt": 1790535735000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -692,8 +699,8 @@
           "name": "USD Coin",
           "symbol": "USDC"
         },
-        "priceNative": "0.001356",
-        "priceUsd": "0.001356",
+        "priceNative": "0.001266",
+        "priceUsd": "0.001266",
         "txns": {
           "m5": {
             "buys": 0,
@@ -701,39 +708,40 @@
           },
           "h1": {
             "buys": 0,
-            "sells": 0
-          },
-          "h6": {
-            "buys": 3,
             "sells": 1
           },
+          "h6": {
+            "buys": 0,
+            "sells": 5
+          },
           "h24": {
-            "buys": 13,
-            "sells": 10
+            "buys": 7,
+            "sells": 12
           }
         },
         "volume": {
-          "h24": 0.62,
-          "h6": 0.16,
-          "h1": 0,
+          "h24": 0.52,
+          "h6": 0.11,
+          "h1": 0.03,
           "m5": 0
         },
         "priceChange": {
-          "h6": 1.35,
-          "h24": 0.4
+          "h1": -1.86,
+          "h6": -6.6,
+          "h24": -10.15
         },
         "liquidity": {
-          "usd": 5.46,
-          "base": 2012.7703,
-          "quote": 2.7389
+          "usd": 5.28,
+          "base": 2100.7046,
+          "quote": 2.6248
         },
-        "fdv": 1123198,
-        "marketCap": 1123198,
+        "fdv": 1048585,
+        "marketCap": 1048585,
         "pairCreatedAt": 1789621455000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -766,50 +774,119 @@
           "name": "Wrapped SOL",
           "symbol": "SOL"
         },
-        "priceNative": "0.00001803",
-        "priceUsd": "0.001365",
+        "priceNative": "0.00001675",
+        "priceUsd": "0.001215",
         "txns": {
           "m5": {
-            "buys": 2,
+            "buys": 0,
             "sells": 0
           },
           "h1": {
             "buys": 2,
-            "sells": 1
+            "sells": 5
           },
           "h6": {
-            "buys": 56,
-            "sells": 22
+            "buys": 18,
+            "sells": 26
           },
           "h24": {
-            "buys": 179,
-            "sells": 168
+            "buys": 168,
+            "sells": 173
           }
         },
         "volume": {
-          "h24": 4.04,
-          "h6": 0.5,
-          "h1": 0.01,
-          "m5": 0.01
+          "h24": 3.82,
+          "h6": 0.41,
+          "h1": 0.12,
+          "m5": 0
         },
         "priceChange": {
-          "m5": 0.98,
-          "h1": 0.82,
-          "h6": 7.37,
-          "h24": 1.26
+          "h1": -4.07,
+          "h6": -10.98,
+          "h24": -11.96
         },
         "liquidity": {
-          "usd": 4.77,
-          "base": 1737.6273,
-          "quote": 0.03175
+          "usd": 4.41,
+          "base": 1802.371,
+          "quote": 0.03063
         },
-        "fdv": 1358975,
-        "marketCap": 1358975,
+        "fdv": 1209757,
+        "marketCap": 1209757,
         "pairCreatedAt": 1789733889000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
+          "websites": [
+            {
+              "url": "https://usepaid.app/",
+              "label": "Website"
+            }
+          ],
+          "socials": [
+            {
+              "url": "https://x.com/UsePaid",
+              "type": "twitter"
+            }
+          ]
+        }
+      },
+      {
+        "chainId": "solana",
+        "dexId": "pancakeswap",
+        "url": "https://dexscreener.com/solana/eqfw7zrgszkcrspffjhdaafmeicqrzq6zvmcypntpq2e",
+        "pairAddress": "Eqfw7zRGSZkCRsPFFJhdAAFmEiCqrzQ6zvmCYPntpQ2E",
+        "baseToken": {
+          "address": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+          "name": "Paid",
+          "symbol": "PAID"
+        },
+        "quoteToken": {
+          "address": "So11111111111111111111111111111111111111112",
+          "name": "Wrapped SOL",
+          "symbol": "SOL"
+        },
+        "priceNative": "0.00001744",
+        "priceUsd": "0.001293",
+        "txns": {
+          "m5": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h1": {
+            "buys": 0,
+            "sells": 0
+          },
+          "h6": {
+            "buys": 27,
+            "sells": 30
+          },
+          "h24": {
+            "buys": 27,
+            "sells": 30
+          }
+        },
+        "volume": {
+          "h24": 26.76,
+          "h6": 26.76,
+          "h1": 0,
+          "m5": 0
+        },
+        "priceChange": {
+          "h6": -100,
+          "h24": -100
+        },
+        "liquidity": {
+          "usd": 1.89,
+          "base": 1431.01596,
+          "quote": 0.0005258
+        },
+        "fdv": 1071464,
+        "marketCap": 1071464,
+        "info": {
+          "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
+          "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -876,13 +953,13 @@
           "base": 38.3405,
           "quote": 0.0499
         },
-        "fdv": 1071134,
-        "marketCap": 1071134,
+        "fdv": 1070666,
+        "marketCap": 1070666,
         "pairCreatedAt": 1789521015000,
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
           "websites": [
             {
               "url": "https://usepaid.app/",
@@ -913,49 +990,50 @@
         "name": "Wrapped SOL",
         "symbol": "SOL"
       },
-      "priceNative": "0.00001804",
-      "priceUsd": "0.001366",
+      "priceNative": "0.00001691",
+      "priceUsd": "0.001228",
       "txns": {
         "m5": {
-          "buys": 0,
-          "sells": 0
+          "buys": 10,
+          "sells": 3
         },
         "h1": {
-          "buys": 6,
-          "sells": 4
+          "buys": 47,
+          "sells": 13
         },
         "h6": {
-          "buys": 165,
-          "sells": 142
+          "buys": 186,
+          "sells": 97
         },
         "h24": {
-          "buys": 746,
-          "sells": 579
+          "buys": 736,
+          "sells": 470
         }
       },
       "volume": {
-        "h24": 89036.77,
-        "h6": 22761.13,
-        "h1": 488.68,
-        "m5": 0
+        "h24": 78910.28,
+        "h6": 17478.09,
+        "h1": 2502.32,
+        "m5": 998.57
       },
       "priceChange": {
-        "h1": -0.26,
-        "h6": 5.65,
-        "h24": 2.65
+        "m5": 0.26,
+        "h1": -1.52,
+        "h6": -10.09,
+        "h24": -9.7
       },
       "liquidity": {
-        "usd": 221748.01,
-        "base": 81976379,
-        "quote": 1449.1175
+        "usd": 205909.66,
+        "base": 83870935,
+        "quote": 1416.5098
       },
-      "fdv": 1131616,
-      "marketCap": 1131616,
+      "fdv": 1017033,
+      "marketCap": 1017033,
       "pairCreatedAt": 1789500144000,
       "info": {
         "imageUrl": "https://cdn.dexscreener.com/cms/images/kQiqJ4FfkHR8RBtA?width=800&height=800&quality=95&format=auto",
         "header": "https://cdn.dexscreener.com/cms/images/JfUPYr-rIfV2rP6-?width=1500&height=500&quality=95&format=auto",
-        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794653700000",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump?timestamp=1794675300000",
         "websites": [
           {
             "url": "https://usepaid.app/",
@@ -977,7 +1055,7 @@
       "id": "paid",
       "ok": true,
       "url": "https://usepaid.app/paid",
-      "checkedAt": "2026-11-14T10:59:38.099Z",
+      "checkedAt": "2026-11-14T16:59:55.313Z",
       "hash": "a63a92b391387bbaf9507af811a9e7e5f20d46a5af21bff825c7401ae0590fff",
       "data": {
         "paused": false,
@@ -989,7 +1067,7 @@
       "id": "docs",
       "ok": true,
       "url": "https://usepaid.app/docs",
-      "checkedAt": "2026-11-14T10:59:38.100Z",
+      "checkedAt": "2026-11-14T16:59:55.314Z",
       "hash": "c92678c3bacb22b8a613016186c70dc06e0f1b8fe778b21adb0dfbfa09a6829d",
       "data": {
         "paused": true,
@@ -1001,7 +1079,7 @@
       "id": "disclosures",
       "ok": true,
       "url": "https://usepaid.app/legal/disclosures",
-      "checkedAt": "2026-11-14T10:59:38.101Z",
+      "checkedAt": "2026-11-14T16:59:55.315Z",
       "hash": "6c811fa0832c74cff469163b1f79295451af528d696c95abaea5c95202fea8fc",
       "data": {
         "paused": true,
@@ -1013,18 +1091,18 @@
       "id": "analytics",
       "ok": true,
       "url": "https://usepaid.app/analytics",
-      "checkedAt": "2026-11-14T10:59:38.101Z",
-      "hash": "4af7481fb3d5040487d496c414470e4d9daf6963fdee579c15b2319840d58d74",
+      "checkedAt": "2026-11-14T16:59:55.316Z",
+      "hash": "b693111d1b1fcef284dd01d76e02f94be6319e5a2b9e1743eb3cb9c922ad5585",
       "data": {
         "burnLinks": [
+          "https://solscan.io/tx/63PaBJCUf7taa8orZUZNfK73hpXjMKNa5nUvjgwqC5Uo61wpVJiProxXssWpczLk1ZH5j4euAUKnFQumhTvHV6i4",
+          "https://solscan.io/tx/2HU8ruSU4Yi1z1cfEgMbrTbzLkJLNGaoDp2AtGpU3x9SJ87kTZgzTQ3tZEQjAD2dQmUVYPJ4fyCjKkrRUhgBqrEy",
           "https://solscan.io/tx/2g6EwH4W1SbpvQdrDaRCFGArKSzgpGDV4LWSNTzV5nsYej2SXs6U76dhCmE87XW4YSuhnutp8he9JvePZ9cHot4c",
           "https://solscan.io/tx/5SD6U75iMUmdZqKbbUD168CJC5cn9zWJD6REpwGrEY4zzph6EaB28xAxrxdysYFT87gvTM8FXFNzfGCoSQJi93Ed",
           "https://solscan.io/tx/45u2QubtnybK82g3MfKeqspKvt8ZHifvpnpqEtWZQfCs5atcXRq8QqTAEn4Vi7bGVJdgYSZMR8AGzYDtZqPZK9Uw",
           "https://solscan.io/tx/5LDG8hbCEhnYtBxDkVTMKzmDADXvuGG4XA8fQEThWb53wn6KPrCP791LYa8N4nWw6G652G3X5HLaxrKtxfp1JbQ2",
           "https://solscan.io/tx/64Cv7krSjQRjgB8EyFm3ta8Ehgfic8wrTXmaYyS7DeEt84jT2YcGWNCjvaHGEwmCfk6oD6ftHgSyWXbd1fshcYz8",
-          "https://solscan.io/tx/34kUtNjCwA82nhHUnz8HaPRy4fknpQjZmwa7wK3GDsf5UDRunKQbQ5kwKceqs61zPuCmFrTVTd7VPgW1NfVHfqpj",
-          "https://solscan.io/tx/4PEgSiqR62TbMNbokJbLQnChJQLqNLsj95ExWMeamjtnDmvrjFhovtT83qgKE7mnsufs5BNNgZnVBeFeYRrLjbZa",
-          "https://solscan.io/tx/3A7rWmkSVwuHThBsxpgYiFoZfCKY48Py5y4HfSbfJh78igZ7NmbQAQ2KxvCkRSw1hcBke37z1GoNgGqTz4shGxXo"
+          "https://solscan.io/tx/34kUtNjCwA82nhHUnz8HaPRy4fknpQjZmwa7wK3GDsf5UDRunKQbQ5kwKceqs61zPuCmFrTVTd7VPgW1NfVHfqpj"
         ],
         "notice": "官网记录需逐笔在 Solscan 核实；不将页面占位数字当作测量值。"
       }
@@ -1033,7 +1111,7 @@
       "id": "team",
       "ok": true,
       "url": "https://tw.rootdata.com/member/rylo?k=MzQ3NjM%3D",
-      "checkedAt": "2026-11-14T10:59:38.102Z",
+      "checkedAt": "2026-11-14T16:59:55.317Z",
       "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "data": {
         "mentionsRylo": false
@@ -1042,7 +1120,7 @@
     {
       "id": "github",
       "ok": true,
-      "checkedAt": "2026-11-14T10:59:38.103Z",
+      "checkedAt": "2026-11-14T16:59:55.318Z",
       "url": "https://api.github.com/users/UsePaid",
       "data": {
         "publicRepos": 0,
@@ -1053,135 +1131,135 @@
     {
       "id": "security",
       "ok": true,
-      "checkedAt": "2026-11-14T10:59:38.103Z",
+      "checkedAt": "2026-11-14T16:59:55.319Z",
       "url": "https://api.rugcheck.xyz/v1/tokens/98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump/report",
       "data": {
         "mintAuthority": null,
         "freezeAuthority": null,
         "token": {
-          "supply": 828090793861045,
+          "supply": 827802739359344,
           "decimals": 6
         },
         "topHolders": [
           {
             "address": "F1Gw5qjivGuLcTsUBeq7ztzE4mi9uaDm7vQdz9sB9mp8",
             "owner": "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA",
-            "pct": 9.900210283970484,
-            "amount": 81982729934444
+            "pct": 10.147429669475981,
+            "amount": 84000700778485
           },
           {
             "address": "4J5du5nv7EgpA5m3h2eq5qLbTj3arDWb1z89QMwYwjLy",
             "owner": "AgnaNYcNXDL5Kzjptxb4tLF4NRs1GunRh2SdVCdLST3T",
-            "pct": 2.536655981238672,
+            "pct": 2.537538673624092,
             "amount": 21005814652563
           },
           {
             "address": "4JswK49JB9YqVpJNTWsVYDStWScy9EpSzpZj7fXdsM7n",
             "owner": "DYbZngFdHcaEEo4iLpjtAXKgXCECftbAhZeampomtCQc",
-            "pct": 1.8939059753908674,
+            "pct": 1.8945650069645388,
             "amount": 15683261026596
           },
           {
             "address": "8cum4cf1j2ogr8NBc15iN8QtuuBbrqg7qCDwpf9MDrri",
             "owner": "ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
-            "pct": 1.79555668800226,
+            "pct": 1.7961814965012493,
             "amount": 14868839631903
           },
           {
             "address": "BfYD3vgkATsDaaerMtNFbW2nAkspTr695zhtnpB8fsqf",
             "owner": "GkEg3cEW2V1RmvuM2CuhJGJmgBRbyyC5dNvBt5KGuxPy",
-            "pct": 1.7579186094098416,
+            "pct": 1.7585303208055496,
             "amount": 14557162168093
           },
           {
             "address": "7CPxAUpuee4buc54yyobrK6DTNYuTi7VvTMqW2nq5mbh",
             "owner": "GyVrpxQ2G8KdgcoKMus8bHHTsV9Xeiq7pAPYdgX1SHsC",
-            "pct": 1.7411533463625752,
+            "pct": 1.7417592238690445,
             "amount": 14418330568232
           },
           {
             "address": "H1BDhK8AHkjEDR5v3c8eJJYJW7woQfRG7jg7ZM7aWsTS",
             "owner": "9yxRLkRjByd8Rzsog991mjtLGSYzDhusc3Ssp55MbvfJ",
-            "pct": 1.4836469350307258,
+            "pct": 1.4841632067924033,
             "amount": 12285943682391
           },
           {
             "address": "CqGCHCYzAYtqnGDwgBcTGmUrtzXv2z5N3oXjpsj9Zxom",
             "owner": "HA2VrWfkrjBA5vVBRXRML7WDYgdZzFh3MsU55HNGMAyy",
-            "pct": 1.4430545975953932,
+            "pct": 1.4435567442461272,
             "amount": 11949802273076
-          },
-          {
-            "address": "AtNaf2gLqGc7KMY47jiEW7kePAGLk1FpHMkXjkrW6zYt",
-            "owner": "ovtwEHG1eLuqagpSz8QXxfwrsUNKx58hejKjhWjxoeD",
-            "pct": 1.4280794695545653,
-            "amount": 11825794616401
           },
           {
             "address": "6Le4qCfF1ezU6UmXd7SK67i4117fwCCCBmhv67gEFgnn",
             "owner": "Fk17MN8KnBWnfJPQyzMqsnZVou7jGsSnTyWkD28oC7LZ",
-            "pct": 1.379413230097902,
+            "pct": 1.379893231155815,
             "amount": 11422793967742
           },
           {
             "address": "EXAzaCgm2iS5ziqfu1kDcpz8QSBRiCUbYdh22y8cG9ZA",
             "owner": "J7rChsCMPnNuauGpjd25K3jjmhvsWAgA2JuJDKZcjsMe",
-            "pct": 1.3768799012075774,
-            "amount": 11401815704423
+            "pct": 1.377533191839429,
+            "amount": 11403257497631
           },
           {
             "address": "DQ12cNVPqXoeuoyW7MZPmV4CtzXRp2hK7ZexRri5hR1F",
             "owner": "BM9CcyErJcu2mjrFvUsRRrD3snGeHDDVirJLvL6EjvMN",
-            "pct": 1.3201673156276434,
-            "amount": 10932184004275
+            "pct": 1.3184522695251943,
+            "amount": 10914184004275
           },
           {
             "address": "CjzT3bii46snQTbCy7kp5aoEMUkWdySri83JU42MZ4Po",
             "owner": "1nc1nerator11111111111111111111111111111111",
-            "pct": 1.2801019941072749,
+            "pct": 1.2805474373566224,
             "amount": 10600406765234
           },
           {
             "address": "4fNfqPTH94RibhKKsn5WyM3q8ojwWsv9W2AyJWnfVWK8",
             "owner": "Gc5hVCBydc6k3Z7oc2cQEW4GThFQi2Fqk5HfKABqa2q8",
-            "pct": 1.1995901018782356,
-            "amount": 9933695197722
+            "pct": 1.15808574690878,
+            "amount": 9586665537041
           },
           {
             "address": "7DDiUzv1y8a3c9vQdrY34xMJrvkU6M5uXRStKbGzBiXX",
             "owner": "5PFH5mLSUNADTZDGYuK7Fqy1aDbs842NRMMtbQz3s7qL",
-            "pct": 1.0746899505592542,
-            "amount": 8899408543131
+            "pct": 1.0813651177992998,
+            "amount": 8951570067619
           },
           {
             "address": "65v21RisHuUHPuJ8ToVuu4WZR1YYn3DkpDwJGf1DNbNm",
             "owner": "7Be67Yxnk1enF3rCr8nK8wxhPmo5N1ktoLksH3RfB2MV",
-            "pct": 0.9243008840768929,
+            "pct": 0.9246225175022554,
             "amount": 7654050528617
           },
           {
             "address": "2z1P8cTTAGETqKzvf7pZjqDQJ3v7sFvjLpcqGmNhKcNG",
             "owner": "8kf6fTyk8R6SrKi41G6Gq8PVYVRxEZh9bDsC72HkhpjG",
-            "pct": 0.9123178125130458,
+            "pct": 0.9126352761313467,
             "amount": 7554819816175
           },
           {
             "address": "Hc3qn67Nn4D9rFaFCas3PMWmau84c9dC6Z7JPefLji1h",
             "owner": "CHubsXab3kTQCYV8ZULMgnCNbxdrUgi1BvfAWnFHexHA",
-            "pct": 0.8962037639629068,
+            "pct": 0.8965156202982103,
             "amount": 7421380863613
           },
           {
             "address": "HpybJggGq6pMctrJRPyarzcfW7C2bZYSSXf9GsUvpioE",
             "owner": "JC6RNWAYcgQWmw2eWz7kEVCRHWm17chmWhhqirQ25WaB",
-            "pct": 0.8575751256053263,
-            "amount": 7101500665580
+            "pct": 0.8759571363289849,
+            "amount": 7251197170145
           },
           {
             "address": "A96kBmrNfp4y8pZeDCKFsH1X1CiWySMZKhnrsBrb7QeW",
             "owner": "5CsJLF3t1Qmhy4NyHiM82QPX1arBNcK42ouU5RAG7q35",
-            "pct": 0.8399807221336162,
+            "pct": 0.8402730142665703,
             "amount": 6955803030196
+          },
+          {
+            "address": "AaBBddHBmqPxkiXA1da1s528AZvDFsbkELxAAdx1ZQQ3",
+            "owner": "GdraWt2wrnvqjxajz7YJCArUpVW7iJ3f27G7A5ZQuVDy",
+            "pct": 0.7936962629677768,
+            "amount": 6570239407040
           }
         ],
         "risks": [],
@@ -1194,579 +1272,607 @@
   "protocol": {
     "analytics": {
       "ok": true,
-      "checkedAt": "2026-11-14T10:59:38.104Z",
+      "checkedAt": "2026-11-14T16:59:55.320Z",
       "url": "https://usepaid.app/analytics",
       "data": {
-        "asOf": "2026-11-14T10:59:39.707Z",
+        "asOf": "2026-11-14T16:59:32.801Z",
         "sourceUrl": "https://usepaid.app/analytics",
-        "totalRegistered": 47727,
+        "totalRegistered": 47733,
         "issuedViaUsePaid": null,
-        "totalFeesUsd": 6445047.656273,
-        "totalBurnedUsd": 1399455.322599,
-        "pendingBurnUsd": 5196.197804,
+        "totalFeesUsd": 6445312.663414,
+        "totalBurnedUsd": 1399524.035814,
+        "pendingBurnUsd": 5193.727148,
         "daily": [
           {
             "day": "2026-08-27",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 1,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-08-28",
             "feesClaimedUsd": 24.095934,
             "burnedUsd": 0,
             "registered": 5,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-08-29",
             "feesClaimedUsd": 1.415509,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-08-30",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-08-31",
             "feesClaimedUsd": 1.671825,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-01",
             "feesClaimedUsd": 36.574748,
             "burnedUsd": 0,
             "registered": 3,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-02",
             "feesClaimedUsd": 15.309854,
             "burnedUsd": 0,
             "registered": 3,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-03",
             "feesClaimedUsd": 20.391468,
             "burnedUsd": 0,
             "registered": 9,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-04",
             "feesClaimedUsd": 0.874345,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-05",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-06",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-07",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-08",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-09",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-10",
             "feesClaimedUsd": 18.09303,
             "burnedUsd": 0,
             "registered": 2,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-11",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-12",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-13",
             "feesClaimedUsd": 0,
             "burnedUsd": 0,
             "registered": 0,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-14",
             "feesClaimedUsd": 29.085727,
             "burnedUsd": 0,
             "registered": 3,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-15",
             "feesClaimedUsd": 174008.915534,
             "burnedUsd": 34825.191276,
             "registered": 1647,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-16",
             "feesClaimedUsd": 266429.46343,
             "burnedUsd": 53258.298109,
             "registered": 3061,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-17",
             "feesClaimedUsd": 512233.856852,
             "burnedUsd": 101895.972322,
             "registered": 4618,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-18",
             "feesClaimedUsd": 365395.719765,
             "burnedUsd": 73496.365495,
             "registered": 3176,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-19",
             "feesClaimedUsd": 281397.233562,
             "burnedUsd": 25717.661567,
             "registered": 1883,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-20",
             "feesClaimedUsd": 170859.129954,
             "burnedUsd": 57596.654148,
             "registered": 1413,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-21",
             "feesClaimedUsd": 90763.614615,
             "burnedUsd": 16493.029674,
             "registered": 1012,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-22",
             "feesClaimedUsd": 59118.775373,
             "burnedUsd": 13102.003693,
             "registered": 711,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-23",
             "feesClaimedUsd": 82931.092398,
             "burnedUsd": 16591.546981,
             "registered": 877,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-24",
             "feesClaimedUsd": 82967.075777,
             "burnedUsd": 27287.674881,
             "registered": 633,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-25",
             "feesClaimedUsd": 117063.851,
             "burnedUsd": 44120.171914,
             "registered": 701,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-26",
             "feesClaimedUsd": 1765556.042522,
             "burnedUsd": 351980.11366,
             "registered": 11409,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-27",
             "feesClaimedUsd": 755028.993423,
             "burnedUsd": 147634.233583,
             "registered": 3358,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-28",
             "feesClaimedUsd": 346234.904759,
             "burnedUsd": 79992.832679,
             "registered": 1906,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-29",
             "feesClaimedUsd": 145201.753081,
             "burnedUsd": 22738.128603,
             "registered": 754,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-09-30",
             "feesClaimedUsd": 67159.209263,
             "burnedUsd": 36229.431099,
             "registered": 475,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-01",
             "feesClaimedUsd": 108750.030263,
             "burnedUsd": 27937.525118,
             "registered": 791,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-02",
             "feesClaimedUsd": 92633.220937,
             "burnedUsd": 21480.823987,
             "registered": 671,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-03",
             "feesClaimedUsd": 48873.829183,
             "burnedUsd": 10186.746079,
             "registered": 368,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-04",
             "feesClaimedUsd": 32079.66028,
             "burnedUsd": 11658.149505,
             "registered": 256,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-05",
             "feesClaimedUsd": 26551.651199,
             "burnedUsd": 6579.955889,
             "registered": 310,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-06",
             "feesClaimedUsd": 78041.702951,
             "burnedUsd": 19192.789528,
             "registered": 294,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-07",
             "feesClaimedUsd": 67127.746576,
             "burnedUsd": 16803.608923,
             "registered": 338,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-08",
             "feesClaimedUsd": 41135.245137,
             "burnedUsd": 10755.074014,
             "registered": 208,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-09",
             "feesClaimedUsd": 40065.573267,
             "burnedUsd": 10003.04686,
             "registered": 320,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-10",
             "feesClaimedUsd": 50085.387344,
             "burnedUsd": 10231.711882,
             "registered": 344,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-11",
             "feesClaimedUsd": 50285.16311,
             "burnedUsd": 7321.572591,
             "registered": 326,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-12",
             "feesClaimedUsd": 60492.720314,
             "burnedUsd": 22351.985376,
             "registered": 290,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-13",
             "feesClaimedUsd": 30448.956768,
             "burnedUsd": 7761.377431,
             "registered": 281,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-14",
             "feesClaimedUsd": 41580.747949,
             "burnedUsd": 10313.235843,
             "registered": 251,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-15",
             "feesClaimedUsd": 32106.899944,
             "burnedUsd": 4273.446605,
             "registered": 274,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-16",
             "feesClaimedUsd": 19961.267142,
             "burnedUsd": 7996.032025,
             "registered": 235,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-17",
             "feesClaimedUsd": 24514.982827,
             "burnedUsd": 6885.636013,
             "registered": 132,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-18",
             "feesClaimedUsd": 37567.234501,
             "burnedUsd": 9325.459039,
             "registered": 450,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-19",
             "feesClaimedUsd": 21538.259858,
             "burnedUsd": 5383.746974,
             "registered": 269,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-20",
             "feesClaimedUsd": 24658.532046,
             "burnedUsd": 6254.83943,
             "registered": 316,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-21",
             "feesClaimedUsd": 22235.831411,
             "burnedUsd": 5231.53504,
             "registered": 349,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-22",
             "feesClaimedUsd": 11191.755435,
             "burnedUsd": 3210.370564,
             "registered": 175,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-23",
             "feesClaimedUsd": 10748.729747,
             "burnedUsd": 2657.801941,
             "registered": 224,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-24",
             "feesClaimedUsd": 6823.503072,
             "burnedUsd": 1780.973248,
             "registered": 165,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-25",
             "feesClaimedUsd": 9084.373535,
             "burnedUsd": 2154.997413,
             "registered": 221,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-26",
             "feesClaimedUsd": 32166.270426,
             "burnedUsd": 12754.839095,
             "registered": 197,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-27",
             "feesClaimedUsd": 6150.025109,
             "burnedUsd": 773.159027,
             "registered": 169,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-28",
             "feesClaimedUsd": 11761.638366,
             "burnedUsd": 3978.424678,
             "registered": 207,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-29",
             "feesClaimedUsd": 13195.848656,
             "burnedUsd": 3336.33034,
             "registered": 279,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-30",
             "feesClaimedUsd": 5315.655376,
             "burnedUsd": 1384.704402,
             "registered": 108,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-10-31",
             "feesClaimedUsd": 4363.026747,
             "burnedUsd": 1241.836248,
             "registered": 113,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-01",
             "feesClaimedUsd": 3260.694942,
             "burnedUsd": 697.725353,
             "registered": 93,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-02",
             "feesClaimedUsd": 5507.503583,
             "burnedUsd": 1461.241819,
             "registered": 178,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-03",
             "feesClaimedUsd": 5509.797619,
             "burnedUsd": 1443.76088,
             "registered": 122,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-04",
             "feesClaimedUsd": 2608.203324,
             "burnedUsd": 659.349641,
             "registered": 90,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-05",
             "feesClaimedUsd": 1920.130919,
             "burnedUsd": 477.769568,
             "registered": 70,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-06",
             "feesClaimedUsd": 5309.840577,
             "burnedUsd": 1324.187967,
             "registered": 84,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-07",
             "feesClaimedUsd": 3178.168009,
             "burnedUsd": 741.894636,
             "registered": 52,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-08",
             "feesClaimedUsd": 50792.083902,
             "burnedUsd": 12680.568875,
             "registered": 84,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-09",
             "feesClaimedUsd": 7251.163604,
             "burnedUsd": 1813.3756,
             "registered": 123,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-10",
             "feesClaimedUsd": 7058.149526,
             "burnedUsd": 1503.998718,
             "registered": 54,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-11",
             "feesClaimedUsd": 3124.448313,
             "burnedUsd": 1086.991667,
             "registered": 36,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-12",
             "feesClaimedUsd": 2962.874165,
             "burnedUsd": 762.23592,
             "registered": 78,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-13",
             "feesClaimedUsd": 2015.908895,
             "burnedUsd": 512.230682,
             "registered": 54,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "asOf": "2026-11-14T16:59:32.801Z"
           },
           {
             "day": "2026-11-14",
-            "feesClaimedUsd": 516.075671,
-            "burnedUsd": 128.946481,
-            "registered": 18,
-            "asOf": "2026-11-14T10:59:39.707Z"
+            "feesClaimedUsd": 781.082812,
+            "burnedUsd": 197.659696,
+            "registered": 24,
+            "asOf": "2026-11-14T16:59:32.801Z"
           }
         ],
         "transactions": [
+          {
+            "id": "2EMfD7XJsAgvGKZVyeLFX5UHYGxh2aWjywksrdb6JX1K5ewL9sHTs5FU2nhtoau5smdZFx7uYAdPo8EjDskegTWE",
+            "status": "burned",
+            "swap": "2EMfD7XJsAgvGKZVyeLFX5UHYGxh2aWjywksrdb6JX1K5ewL9sHTs5FU2nhtoau5smdZFx7uYAdPo8EjDskegTWE",
+            "burn": "63PaBJCUf7taa8orZUZNfK73hpXjMKNa5nUvjgwqC5Uo61wpVJiProxXssWpczLk1ZH5j4euAUKnFQumhTvHV6i4",
+            "boughtAt": "2026-11-14T15:00:00.000Z",
+            "burnedAt": "2026-11-14T15:00:00.000Z",
+            "solSpent": 0.545,
+            "usdSpent": 40.34,
+            "tokensBought": 31000,
+            "tokensBurned": 31000,
+            "amountPrecision": "website-rounded",
+            "sourceUrl": "https://usepaid.app/analytics"
+          },
+          {
+            "id": "22usZjLz4usXF4UEHkYS4g5CuXY8ELVHK9PZCCnPvCSg431cBY5EuuaZpK1ee5NJFiSZU2CVFTrTscHJ984nEqDM",
+            "status": "burned",
+            "swap": "22usZjLz4usXF4UEHkYS4g5CuXY8ELVHK9PZCCnPvCSg431cBY5EuuaZpK1ee5NJFiSZU2CVFTrTscHJ984nEqDM",
+            "burn": "2HU8ruSU4Yi1z1cfEgMbrTbzLkJLNGaoDp2AtGpU3x9SJ87kTZgzTQ3tZEQjAD2dQmUVYPJ4fyCjKkrRUhgBqrEy",
+            "boughtAt": "2026-11-14T12:00:00.000Z",
+            "burnedAt": "2026-11-14T12:00:00.000Z",
+            "solSpent": 0.3739,
+            "usdSpent": 28.37,
+            "tokensBought": 21300,
+            "tokensBurned": 21300,
+            "amountPrecision": "website-rounded",
+            "sourceUrl": "https://usepaid.app/analytics"
+          },
           {
             "id": "5eRgfHJeaiE3pNMzLNVziVCH8E7FvhEPvD67erVtzbXoVramoSw9xSvwxFbf4ocRij6ZdsxqhBzQvYxqvcxibeUq",
             "status": "burned",
@@ -2298,34 +2404,6 @@
             "tokensBurned": 56200,
             "amountPrecision": "website-rounded",
             "sourceUrl": "https://usepaid.app/analytics"
-          },
-          {
-            "id": "3uaBBSntUQ2ozcyrebxFBhvcJuuu6CECeXQ5XhXvUP8t4a5vd8Rfe7YFbkaAVVpTFqDtiFSs2Wwbnf9XZqoGokhL",
-            "status": "burned",
-            "swap": "3uaBBSntUQ2ozcyrebxFBhvcJuuu6CECeXQ5XhXvUP8t4a5vd8Rfe7YFbkaAVVpTFqDtiFSs2Wwbnf9XZqoGokhL",
-            "burn": "4gZUBvZ7oohres2iHnihdDFEn3N55HTUhHiJKmc7MXgxrhejbeG1ZvYYWWgW15is2kJxUvB51e9Y86p1omvQ1Pdv",
-            "boughtAt": "2026-11-10T16:25:00.000Z",
-            "burnedAt": "2026-11-10T16:25:00.000Z",
-            "solSpent": 1.0263,
-            "usdSpent": 84.48,
-            "tokensBought": 49700,
-            "tokensBurned": 49700,
-            "amountPrecision": "website-rounded",
-            "sourceUrl": "https://usepaid.app/analytics"
-          },
-          {
-            "id": "5GuLrGNb9BnA4fbRv8HNAPV6MwDEdx2JtP956cpjAvMkWmhjB3DYodivkvq4Mv2qFe3kXmBxe7aumxkFyi2HXNoN",
-            "status": "burned",
-            "swap": "5GuLrGNb9BnA4fbRv8HNAPV6MwDEdx2JtP956cpjAvMkWmhjB3DYodivkvq4Mv2qFe3kXmBxe7aumxkFyi2HXNoN",
-            "burn": "3Cc6nokcZVdquevVwNTUwFVudeTPNSAVahbLB4jfqPuiADn4Tcmf5qbzmWbY66nPpfCzFuAfeMLH42k5uzuPkieF",
-            "boughtAt": "2026-11-10T15:26:00.000Z",
-            "burnedAt": "2026-11-10T15:26:00.000Z",
-            "solSpent": 0.9397,
-            "usdSpent": 78.9,
-            "tokensBought": 42700,
-            "tokensBurned": 42700,
-            "amountPrecision": "website-rounded",
-            "sourceUrl": "https://usepaid.app/analytics"
           }
         ],
         "countMethod": "官网 Tokens registered：包含新发行及后来接入的代币，无法单独核实通过 UsePaid 发行的数量。",
@@ -2334,7 +2412,7 @@
     },
     "volume": {
       "ok": true,
-      "checkedAt": "2026-11-14T10:59:38.105Z",
+      "checkedAt": "2026-11-14T16:59:55.321Z",
       "url": "https://usepaid.app/api/analytics/volume",
       "data": {
         "sourceUrl": "https://usepaid.app/api/analytics/volume",
@@ -2769,14 +2847,14 @@
           }
         ],
         "latestRolling": {
-          "hour": "2026-11-14T10:00:00.000Z",
-          "startedAt": "2026-11-14T10:00:46.641Z",
-          "completedAt": "2026-11-14T10:21:14.954Z",
-          "volume24hUsd": "723910.490000",
-          "volume1hUsd": "40941.960000",
-          "tokenCount": 47728,
+          "hour": "2026-11-14T16:00:00.000Z",
+          "startedAt": "2026-11-14T16:00:35.101Z",
+          "completedAt": "2026-11-14T16:15:08.530Z",
+          "volume24hUsd": "735878.280000",
+          "volume1hUsd": "9201.110000",
+          "tokenCount": 47733,
           "coveredTokens": 269,
-          "poolCount": 321,
+          "poolCount": 325,
           "stale": false
         },
         "backfill": "paused",
@@ -2791,560 +2869,560 @@
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 1,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-08-28",
         "feesClaimedUsd": 24.095934,
         "burnedUsd": 0,
         "registered": 5,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-08-29",
         "feesClaimedUsd": 1.415509,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-08-30",
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-08-31",
         "feesClaimedUsd": 1.671825,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-01",
         "feesClaimedUsd": 36.574748,
         "burnedUsd": 0,
         "registered": 3,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-02",
         "feesClaimedUsd": 15.309854,
         "burnedUsd": 0,
         "registered": 3,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-03",
         "feesClaimedUsd": 20.391468,
         "burnedUsd": 0,
         "registered": 9,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-04",
         "feesClaimedUsd": 0.874345,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-05",
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-06",
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-07",
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-08",
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-09",
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-10",
         "feesClaimedUsd": 18.09303,
         "burnedUsd": 0,
         "registered": 2,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-11",
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-12",
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-13",
         "feesClaimedUsd": 0,
         "burnedUsd": 0,
         "registered": 0,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-14",
         "feesClaimedUsd": 29.085727,
         "burnedUsd": 0,
         "registered": 3,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-15",
         "feesClaimedUsd": 174008.915534,
         "burnedUsd": 34825.191276,
         "registered": 1647,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-16",
         "feesClaimedUsd": 266429.46343,
         "burnedUsd": 53258.298109,
         "registered": 3061,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-17",
         "feesClaimedUsd": 512233.856852,
         "burnedUsd": 101895.972322,
         "registered": 4618,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-18",
         "feesClaimedUsd": 365395.719765,
         "burnedUsd": 73496.365495,
         "registered": 3176,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-19",
         "feesClaimedUsd": 281397.233562,
         "burnedUsd": 25717.661567,
         "registered": 1883,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-20",
         "feesClaimedUsd": 170859.129954,
         "burnedUsd": 57596.654148,
         "registered": 1413,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-21",
         "feesClaimedUsd": 90763.614615,
         "burnedUsd": 16493.029674,
         "registered": 1012,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-22",
         "feesClaimedUsd": 59118.775373,
         "burnedUsd": 13102.003693,
         "registered": 711,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-23",
         "feesClaimedUsd": 82931.092398,
         "burnedUsd": 16591.546981,
         "registered": 877,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-24",
         "feesClaimedUsd": 82967.075777,
         "burnedUsd": 27287.674881,
         "registered": 633,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-25",
         "feesClaimedUsd": 117063.851,
         "burnedUsd": 44120.171914,
         "registered": 701,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-26",
         "feesClaimedUsd": 1765556.042522,
         "burnedUsd": 351980.11366,
         "registered": 11409,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-27",
         "feesClaimedUsd": 755028.993423,
         "burnedUsd": 147634.233583,
         "registered": 3358,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-28",
         "feesClaimedUsd": 346234.904759,
         "burnedUsd": 79992.832679,
         "registered": 1906,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-29",
         "feesClaimedUsd": 145201.753081,
         "burnedUsd": 22738.128603,
         "registered": 754,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-09-30",
         "feesClaimedUsd": 67159.209263,
         "burnedUsd": 36229.431099,
         "registered": 475,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-01",
         "feesClaimedUsd": 108750.030263,
         "burnedUsd": 27937.525118,
         "registered": 791,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-02",
         "feesClaimedUsd": 92633.220937,
         "burnedUsd": 21480.823987,
         "registered": 671,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-03",
         "feesClaimedUsd": 48873.829183,
         "burnedUsd": 10186.746079,
         "registered": 368,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-04",
         "feesClaimedUsd": 32079.66028,
         "burnedUsd": 11658.149505,
         "registered": 256,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-05",
         "feesClaimedUsd": 26551.651199,
         "burnedUsd": 6579.955889,
         "registered": 310,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-06",
         "feesClaimedUsd": 78041.702951,
         "burnedUsd": 19192.789528,
         "registered": 294,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-07",
         "feesClaimedUsd": 67127.746576,
         "burnedUsd": 16803.608923,
         "registered": 338,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-08",
         "feesClaimedUsd": 41135.245137,
         "burnedUsd": 10755.074014,
         "registered": 208,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-09",
         "feesClaimedUsd": 40065.573267,
         "burnedUsd": 10003.04686,
         "registered": 320,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-10",
         "feesClaimedUsd": 50085.387344,
         "burnedUsd": 10231.711882,
         "registered": 344,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-11",
         "feesClaimedUsd": 50285.16311,
         "burnedUsd": 7321.572591,
         "registered": 326,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-12",
         "feesClaimedUsd": 60492.720314,
         "burnedUsd": 22351.985376,
         "registered": 290,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-13",
         "feesClaimedUsd": 30448.956768,
         "burnedUsd": 7761.377431,
         "registered": 281,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-14",
         "feesClaimedUsd": 41580.747949,
         "burnedUsd": 10313.235843,
         "registered": 251,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-15",
         "feesClaimedUsd": 32106.899944,
         "burnedUsd": 4273.446605,
         "registered": 274,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-16",
         "feesClaimedUsd": 19961.267142,
         "burnedUsd": 7996.032025,
         "registered": 235,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-17",
         "feesClaimedUsd": 24514.982827,
         "burnedUsd": 6885.636013,
         "registered": 132,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-18",
         "feesClaimedUsd": 37567.234501,
         "burnedUsd": 9325.459039,
         "registered": 450,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-19",
         "feesClaimedUsd": 21538.259858,
         "burnedUsd": 5383.746974,
         "registered": 269,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-20",
         "feesClaimedUsd": 24658.532046,
         "burnedUsd": 6254.83943,
         "registered": 316,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-21",
         "feesClaimedUsd": 22235.831411,
         "burnedUsd": 5231.53504,
         "registered": 349,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-22",
         "feesClaimedUsd": 11191.755435,
         "burnedUsd": 3210.370564,
         "registered": 175,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-23",
         "feesClaimedUsd": 10748.729747,
         "burnedUsd": 2657.801941,
         "registered": 224,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-24",
         "feesClaimedUsd": 6823.503072,
         "burnedUsd": 1780.973248,
         "registered": 165,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-25",
         "feesClaimedUsd": 9084.373535,
         "burnedUsd": 2154.997413,
         "registered": 221,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-26",
         "feesClaimedUsd": 32166.270426,
         "burnedUsd": 12754.839095,
         "registered": 197,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-27",
         "feesClaimedUsd": 6150.025109,
         "burnedUsd": 773.159027,
         "registered": 169,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-28",
         "feesClaimedUsd": 11761.638366,
         "burnedUsd": 3978.424678,
         "registered": 207,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-29",
         "feesClaimedUsd": 13195.848656,
         "burnedUsd": 3336.33034,
         "registered": 279,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-30",
         "feesClaimedUsd": 5315.655376,
         "burnedUsd": 1384.704402,
         "registered": 108,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-10-31",
         "feesClaimedUsd": 4363.026747,
         "burnedUsd": 1241.836248,
         "registered": 113,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-01",
         "feesClaimedUsd": 3260.694942,
         "burnedUsd": 697.725353,
         "registered": 93,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-02",
         "feesClaimedUsd": 5507.503583,
         "burnedUsd": 1461.241819,
         "registered": 178,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-03",
         "feesClaimedUsd": 5509.797619,
         "burnedUsd": 1443.76088,
         "registered": 122,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-04",
         "feesClaimedUsd": 2608.203324,
         "burnedUsd": 659.349641,
         "registered": 90,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-05",
         "feesClaimedUsd": 1920.130919,
         "burnedUsd": 477.769568,
         "registered": 70,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-06",
         "feesClaimedUsd": 5309.840577,
         "burnedUsd": 1324.187967,
         "registered": 84,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-07",
         "feesClaimedUsd": 3178.168009,
         "burnedUsd": 741.894636,
         "registered": 52,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-08",
         "feesClaimedUsd": 50792.083902,
         "burnedUsd": 12680.568875,
         "registered": 84,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-09",
         "feesClaimedUsd": 7251.163604,
         "burnedUsd": 1813.3756,
         "registered": 123,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-10",
         "feesClaimedUsd": 7058.149526,
         "burnedUsd": 1503.998718,
         "registered": 54,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-11",
         "feesClaimedUsd": 3124.448313,
         "burnedUsd": 1086.991667,
         "registered": 36,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-12",
         "feesClaimedUsd": 2962.874165,
         "burnedUsd": 762.23592,
         "registered": 78,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-13",
         "feesClaimedUsd": 2015.908895,
         "burnedUsd": 512.230682,
         "registered": 54,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "asOf": "2026-11-14T16:59:32.801Z"
       },
       {
         "day": "2026-11-14",
-        "feesClaimedUsd": 516.075671,
-        "burnedUsd": 128.946481,
-        "registered": 18,
-        "asOf": "2026-11-14T10:59:39.707Z"
+        "feesClaimedUsd": 781.082812,
+        "burnedUsd": 197.659696,
+        "registered": 24,
+        "asOf": "2026-11-14T16:59:32.801Z"
       }
     ],
     "transactions": [
@@ -3443,6 +3521,20 @@
         "usdSpent": 278.29,
         "tokensBought": 70500,
         "tokensBurned": 70500,
+        "amountPrecision": "website-rounded",
+        "sourceUrl": "https://usepaid.app/analytics"
+      },
+      {
+        "id": "22usZjLz4usXF4UEHkYS4g5CuXY8ELVHK9PZCCnPvCSg431cBY5EuuaZpK1ee5NJFiSZU2CVFTrTscHJ984nEqDM",
+        "status": "burned",
+        "swap": "22usZjLz4usXF4UEHkYS4g5CuXY8ELVHK9PZCCnPvCSg431cBY5EuuaZpK1ee5NJFiSZU2CVFTrTscHJ984nEqDM",
+        "burn": "2HU8ruSU4Yi1z1cfEgMbrTbzLkJLNGaoDp2AtGpU3x9SJ87kTZgzTQ3tZEQjAD2dQmUVYPJ4fyCjKkrRUhgBqrEy",
+        "boughtAt": "2026-11-14T12:00:00.000Z",
+        "burnedAt": "2026-11-14T12:00:00.000Z",
+        "solSpent": 0.3739,
+        "usdSpent": 28.37,
+        "tokensBought": 21300,
+        "tokensBurned": 21300,
         "amountPrecision": "website-rounded",
         "sourceUrl": "https://usepaid.app/analytics"
       },
@@ -3849,6 +3941,20 @@
         "usdSpent": 340.01,
         "tokensBought": 85300,
         "tokensBurned": 85300,
+        "amountPrecision": "website-rounded",
+        "sourceUrl": "https://usepaid.app/analytics"
+      },
+      {
+        "id": "2EMfD7XJsAgvGKZVyeLFX5UHYGxh2aWjywksrdb6JX1K5ewL9sHTs5FU2nhtoau5smdZFx7uYAdPo8EjDskegTWE",
+        "status": "burned",
+        "swap": "2EMfD7XJsAgvGKZVyeLFX5UHYGxh2aWjywksrdb6JX1K5ewL9sHTs5FU2nhtoau5smdZFx7uYAdPo8EjDskegTWE",
+        "burn": "63PaBJCUf7taa8orZUZNfK73hpXjMKNa5nUvjgwqC5Uo61wpVJiProxXssWpczLk1ZH5j4euAUKnFQumhTvHV6i4",
+        "boughtAt": "2026-11-14T15:00:00.000Z",
+        "burnedAt": "2026-11-14T15:00:00.000Z",
+        "solSpent": 0.545,
+        "usdSpent": 40.34,
+        "tokensBought": 31000,
+        "tokensBurned": 31000,
         "amountPrecision": "website-rounded",
         "sourceUrl": "https://usepaid.app/analytics"
       },
@@ -12207,38 +12313,38 @@
       },
       {
         "day": "2026-11-14",
-        "buyCount": 4,
-        "burnCount": 4,
-        "buyUsd": 128.94,
-        "buySol": 1.6944000000000001,
-        "tokensBought": 99200,
-        "tokensBurned": 99200
+        "buyCount": 6,
+        "burnCount": 6,
+        "buyUsd": 197.65,
+        "buySol": 2.6133,
+        "tokensBought": 151500,
+        "tokensBurned": 151500
       }
     ],
-    "checkedAt": "2026-11-14T10:59:42.672Z"
+    "checkedAt": "2026-11-14T16:59:56.498Z"
   },
   "social": {
-    "checkedAt": "2026-11-14T10:59:38.106Z",
+    "checkedAt": "2026-11-14T16:59:55.322Z",
     "sources": [
       {
         "id": "news",
         "name": "Google News · UsePaid",
         "ok": true,
-        "checkedAt": "2026-11-14T10:59:38.106Z",
+        "checkedAt": "2026-11-14T16:59:55.322Z",
         "url": "https://news.google.com/rss/search?q=UsePaid&hl=en-US&gl=US&ceid=US:en"
       },
       {
         "id": "protos",
         "name": "Protos · UsePaid",
         "ok": true,
-        "checkedAt": "2026-11-14T10:59:38.106Z",
+        "checkedAt": "2026-11-14T16:59:55.322Z",
         "url": "https://protos.com/tag/usepaid/feed/"
       },
       {
         "id": "x",
         "name": "X recent search",
         "ok": false,
-        "checkedAt": "2026-11-14T10:59:38.106Z",
+        "checkedAt": "2026-11-14T16:59:55.322Z",
         "error": "未配置 X_BEARER_TOKEN；当前提供历史原帖、外部报道及官方账号入口。"
       }
     ],
@@ -13027,57 +13133,9 @@
   },
   "candles": {
     "ok": true,
-    "checkedAt": "2026-11-14T10:59:42.684Z",
+    "checkedAt": "2026-11-14T16:59:56.507Z",
     "url": "https://api.geckoterminal.com/api/v2/networks/solana/pools/6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA/ohlcv/hour?aggregate=1&limit=168&currency=usd&token=98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
     "data": [
-      {
-        "time": 1794049200,
-        "open": 0.0021683070969170095,
-        "high": 0.0021940156670836914,
-        "low": 0.002101336976938934,
-        "close": 0.0021689463681440493,
-        "volume": 7546.319663983393
-      },
-      {
-        "time": 1794052800,
-        "open": 0.0021689463681440493,
-        "high": 0.0021689463681440493,
-        "low": 0.0021350272002865337,
-        "close": 0.0021350272002865337,
-        "volume": 737.976102821131
-      },
-      {
-        "time": 1794056400,
-        "open": 0.0021350272002865337,
-        "high": 0.0021702341452026846,
-        "low": 0.0021292452649464937,
-        "close": 0.0021702341452026846,
-        "volume": 861.9344417425166
-      },
-      {
-        "time": 1794060000,
-        "open": 0.0021702341452026846,
-        "high": 0.002242132055569618,
-        "low": 0.0021448184001972644,
-        "close": 0.002242132055569618,
-        "volume": 5040.436037424316
-      },
-      {
-        "time": 1794063600,
-        "open": 0.002242132055569618,
-        "high": 0.0022680494584969347,
-        "low": 0.0021912443539339062,
-        "close": 0.0022055214970904424,
-        "volume": 7115.877768407729
-      },
-      {
-        "time": 1794067200,
-        "open": 0.0022055214970904424,
-        "high": 0.0022128544149098745,
-        "low": 0.0021694529592270907,
-        "close": 0.0021694529592270907,
-        "volume": 1293.9727686472002
-      },
       {
         "time": 1794070800,
         "open": 0.0021694529592270907,
@@ -14373,6 +14431,54 @@
         "low": 0.0013444788605963744,
         "close": 0.0013584759510874797,
         "volume": 498.4079559056074
+      },
+      {
+        "time": 1794654000,
+        "open": 0.0013584759510874797,
+        "high": 0.0013602713121579535,
+        "low": 0.0012971655068725726,
+        "close": 0.0013288123774565519,
+        "volume": 3758.616109850144
+      },
+      {
+        "time": 1794657600,
+        "open": 0.0013288123774565519,
+        "high": 0.0013288123774565519,
+        "low": 0.0013029550739020398,
+        "close": 0.0013183091297222932,
+        "volume": 623.731487572037
+      },
+      {
+        "time": 1794661200,
+        "open": 0.0013183091297222932,
+        "high": 0.0013631439078629563,
+        "low": 0.001298014830471724,
+        "close": 0.001344268470314728,
+        "volume": 14870.973095826284
+      },
+      {
+        "time": 1794664800,
+        "open": 0.001344268470314728,
+        "high": 0.0013456156339121017,
+        "low": 0.0012786338333027976,
+        "close": 0.0012925538831790738,
+        "volume": 4672.641959410601
+      },
+      {
+        "time": 1794668400,
+        "open": 0.0012925538831790738,
+        "high": 0.0013194981461248693,
+        "low": 0.001248645016216501,
+        "close": 0.0012588939111808112,
+        "volume": 4079.8273177531646
+      },
+      {
+        "time": 1794672000,
+        "open": 0.0012588939111808112,
+        "high": 0.001262194880330546,
+        "low": 0.0012067883897867511,
+        "close": 0.0012303408795587938,
+        "volume": 4673.567819678621
       }
     ],
     "error": null
@@ -15553,6 +15659,13 @@
       "liquidity": 221748.01,
       "volume24h": 89036.77,
       "pool": "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA"
+    },
+    {
+      "time": "2026-11-14T16:59:56.498Z",
+      "price": 0.001228,
+      "liquidity": 205909.66,
+      "volume24h": 78910.28,
+      "pool": "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA"
     }
   ],
   "events": [
@@ -15811,7 +15924,7 @@
     "drop24hPercent": 20,
     "historyLimit": 2880,
     "eventLimit": 300,
-    "runUrl": "https://github.com/keithprayer/usePaid/actions/runs/43587833742",
+    "runUrl": "https://github.com/keithprayer/usePaid/actions/runs/43618625453",
     "mode": "github-actions",
     "thresholdEvaluation": "evaluated"
   }
